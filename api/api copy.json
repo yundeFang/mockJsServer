@@ -1,0 +1,48 @@
+{
+    "/": [{
+      "url": "/",
+      "desc": "接口测试",
+      "res": {
+        "message": "成功",
+        "code": 1,
+        "data": {
+          "loginName": "我1是测试信息"
+        }
+      }
+    }],
+    "login": {
+      "url": "/login",
+      "desc": "接口描述2",
+      "res": {
+        "message": "2成功2",
+        "code": 1,
+        "data": {
+          "loginName": "@cword(4,10)"
+        }
+      }
+    },
+    "mokeyufa": [
+      {
+      "url": "/mokeyufa",
+      "desc": "mock语法测试",
+      "res": {     
+        "message": "成功",
+        "code": 200,
+        "data|1-9": [{
+            "id|+1": 1,
+            "value|0-500": 20
+        }]
+      }
+    },{
+      "url": "/mo/mo",
+      "desc": "mock语法测试4",
+      "res": {     
+        "message": "成功",
+        "code": 200,
+        "data|1-9": [{
+            "id|+1": 1          
+        }]
+      }
+    }
+    ]
+  }
